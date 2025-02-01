@@ -6,6 +6,7 @@ import Anilist from "./anilist"
 import Jikan from "./jikan"
 import LastFM from "./lastfm"
 import GiantBomb from "./giantbomb"
+import Vndb from "./vndb"
 import { API, APIWithShowMore } from "./api"
 
 const apis = [new Kitsu(), new Jikan(), new Anilist(), new LastFM(), new GiantBomb()]
